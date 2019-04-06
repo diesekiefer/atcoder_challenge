@@ -48,7 +48,7 @@ int mod(vector<int> A, int N, int max){
       sum += i % A[j];
     }
     if (mmax < sum){
-      cout << sum << endl;
+      // cout << sum << endl;
       mmax = sum;
     }
   }
